@@ -15,6 +15,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -26,5 +30,106 @@ body {
   background-image: url("../images/pale_red_white_shadow-644060.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#signupform {
+  display: none;
+}
+
+.signupcontainer {
+  border-radius: 10px;
+  background-color: rgba(37, 10, 10, 0.904);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  width: 650px;
+  min-height: 26.3rem;
+}
+
+.signupcontainer .signupimg {
+  width: 50%;
+  background-image: url("../images/walletcropped.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signupcontainer .signupimg .logo {
+  background-color: rgba(37, 10, 10, 0.76);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.signupcontainer .signupimg .logo img {
+  width: 150px;
+}
+
+.signupcontainer .signupimg .logo p {
+  color: #ffd8d1;
+  margin: 0;
+}
+
+.signupcontainer .signup {
+  color: #fdd4d4;
+  width: 50%;
+}
+
+.signupcontainer .signup .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.signupcontainer .signup .tabs .tab {
+  width: 50%;
+  text-align: center;
+  padding: .8rem 0;
+  border-bottom: 2px solid #fdd4d4;
+  cursor: pointer;
+}
+
+.signupcontainer .signup .tabs .tab:hover {
+  background-color: rgba(104, 42, 42, 0.459);
+}
+
+.signupcontainer .signup .tabs .signintab {
+  font-weight: bold;
+}
+
+.signupcontainer .signup .tabs .signuptab {
+  border-bottom: 2px solid #5c3232;
+}
+
+.signupcontainer .signup h1 {
+  padding: 10px;
+}
+
+.signupcontainer .signup form {
+  padding: 20px;
+}
+
+.signupcontainer .signup form button {
+  font-weight: bold;
+  border-radius: 10px;
+  color: #ffd8d1;
+  background-color: #5c3232;
+  border: none;
+  padding: 8px 45px 11px 45px;
+}
+
+.signupcontainer .signup .form-control {
+  border: none;
+  margin: .15rem 0;
+  background-color: #ffd8d1;
 }
 /*# sourceMappingURL=index.css.map */
