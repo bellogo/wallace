@@ -1,3 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.css';
+import './css/index.scss';
+
 class UI {
     static changeTab (el) {
         if(el.classList.contains('signuptab')){
